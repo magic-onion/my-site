@@ -4,10 +4,13 @@ class Home extends React.Component {
   render() {
     return(
       <div className='about'>
-      <p>This is the homepage where the rest of the components will live</p>
+      <p>hello What's up I am alex what am I tryna do?!</p>
       </div>
     )
   }
 }
 
 export default Home
+
+//elevator pitch and what i am tryna to do
+//
