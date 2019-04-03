@@ -5,6 +5,9 @@ import Blog from './containers/Blog'
 import Resume from './containers/Resume'
 import SocialLinks from './components/Social'
 import Home from './containers/Home'
+import Navigation from './components/Navigation'
+
+
 import { Route, Switch } from "react-router-dom";
 // import TableExamplePagination from './containers/TableExamplePagination'
 
@@ -14,11 +17,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Home/>
-        <About/>
-        <Projects/>
-        <Blog/>
-        <Resume/>
+        <Navigation/>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/projects' component={Projects} />
+        <Route exact path='/blog' component={Blog} />
+        <Route exact path='/resume' component={Resume} />
+        <Route exact path='/about' component={About}/>
         <SocialLinks/>
       </div>
     );
