@@ -4,7 +4,7 @@ class Home extends React.Component {
   render() {
     return(
       <div className='about'>
-      <p>hello What's up I am alex what am I tryna do?!</p>
+      <p></p>
       </div>
     )
   }

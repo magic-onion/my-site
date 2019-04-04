@@ -4,7 +4,7 @@ class Blog extends React.Component {
   render() {
     return(
       <div className='blog'>
-      THE Blog SECTION
+      Here you can find a number of articles I have written on technical subjects. I hope you enjoy!
       </div>
     )
   }
