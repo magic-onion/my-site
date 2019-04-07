@@ -19,3 +19,4 @@ export default Home
 // choose which projects you want up!
 //Write out a long about me
 //post resume as PDF  (version without phone)
+//grab examples for ux and layout
